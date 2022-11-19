@@ -1,19 +1,22 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #131720;
   font-family: sans-serif;
 }
-h3{
+
+h3 {
   color: white;
 }
 
-.topnav{
+.topnav {
   overflow: hidden;
   background-color: #131720;
-  padding :10px;
+  padding: 10px;
 }
+
 .topnav a{
   float: left;
   display: block;
@@ -24,6 +27,7 @@ h3{
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+
 .topnav .search-container{
   float: right;
 }
@@ -31,31 +35,33 @@ h3{
 form{
   background-color: #151f30;
   width: 300px;
-  height:43px;
+  height: 43px;
   border-radius: 11px;
   display: flex;
-  align-items: center;
+  alight-items: center;
 }
-input{
+
+input {
   all: unset;
   font: 15px system-ui;
   color: #fff;
   height: 100%;
   width: 100%;
   padding: 6px 9px;
-  
 }
 
-.thumbnail{
+.thumbnail {
   height: 350px;
   width: 300px;
-  border-radius: 19px;  
+  border-radius: 19px;
 }
-.column{
+
+.column {
   float: left;
   width: 25%;
   padding: 10px 10px;
 }
+
 .card{
   border-radius: 19px;
   padding: 15px;
